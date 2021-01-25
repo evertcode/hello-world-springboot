@@ -1,3 +1,13 @@
-spring:
-  main:
+logging: 
+  level: 
+    com.evertcode: DEBUG
+    org.hibernate: ERROR
+    org.springframework.web: ERROR
+    root: ERROR
+  pattern: 
+    console: '%d{dd-MM-yyyy HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n'
+    file: '%d{dd-MM-yyyy HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n'
+
+spring: 
+  main: 
     banner-mode: "off"
