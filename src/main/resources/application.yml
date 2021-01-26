@@ -1,13 +1,24 @@
+server:
+  port: ${PORT:8080}
+  servlet:
+    context-path: /information
+
 logging: 
+  file:
+    path: .
+    name: logs/${spring.application.name:phonebook-service}.log
   level: 
-    com.evertcode: DEBUG
-    org.hibernate: ERROR
-    org.springframework.web: ERROR
+    '[com.evertcode]': INFO
+    '[org.hibernate]': ERROR
+    '[org.springframework]': INFO
+    '[org.springframework.web]': ERROR
     root: ERROR
   pattern: 
     console: '%d{dd-MM-yyyy HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n'
     file: '%d{dd-MM-yyyy HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n'
 
 spring: 
+  application:
+    name: phonebook-service
   main: 
     banner-mode: "off"

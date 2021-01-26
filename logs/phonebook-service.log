@@ -1,0 +1,15 @@
+25-01-2021 18:35:27 [main] INFO  c.e.phonebook.PhonebookApplication - Starting PhonebookApplication using Java 11.0.9.1 on evertcode.local with PID 21971 (/Users/evertcode/development/my-projects/phonebook/target/classes started by evertcode in /Users/evertcode/development/my-projects/phonebook)
+25-01-2021 18:35:27 [main] INFO  c.e.phonebook.PhonebookApplication - No active profile set, falling back to default profiles: default
+25-01-2021 18:35:29 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+25-01-2021 18:35:29 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+25-01-2021 18:35:29 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+25-01-2021 18:35:30 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2420 ms
+25-01-2021 18:35:31 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+25-01-2021 18:35:32 [main] INFO  c.e.p.controller.PhonebookController - Started service
+25-01-2021 18:35:32 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+25-01-2021 18:35:32 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+25-01-2021 18:35:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/information'
+25-01-2021 18:35:32 [main] INFO  c.e.phonebook.PhonebookApplication - Started PhonebookApplication in 6.43 seconds (JVM running for 8.038)
+25-01-2021 18:37:15 [http-nio-8080-exec-1] INFO  c.e.p.controller.PhonebookController - Hola JonhDoe desde un logging info
+25-01-2021 18:37:15 [http-nio-8080-exec-1] WARN  c.e.p.controller.PhonebookController - Hola JonhDoe desde un logging warn
+25-01-2021 18:37:15 [http-nio-8080-exec-1] ERROR c.e.p.controller.PhonebookController - Hola JonhDoe desde un logging error
